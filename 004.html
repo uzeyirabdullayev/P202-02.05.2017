@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var gunlukgelir = Number(prompt(gunlukgelir));        
+        var gunlerinsayi = Number(promp(gunlerinsayi));
+        var brutgelir = gunlukgelir*gunlerinsayi;
+        var faiz;
+        if(brutgelir >= 1000){
+            faiz = brutgelir*0.18;
+        } 
+        else
+        {
+            faiz = brutgelir*0.04;
+        }
+        var netgelir = brutgelir - faiz;
+        document.write("Faiz:" + faiz);
+        document.write("Netgelir:" + netgelir);
+        </script>
+</body>
+</html>
